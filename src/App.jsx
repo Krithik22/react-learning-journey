@@ -1,11 +1,10 @@
-import UseContext from "./components/useContext/UseContext";
-import Sample from "./components/useReducer/Sample";
-import Counter from "./components/useReducer/Exercise/Counter";
+import FocusInput from "./components/useRef/FocusInput";
+import Timer from "./components/useRef/Timer";
 
 function App(){
   return (
     <div>
-      <Counter />
+      <Timer />
     </div>
   );
 }
